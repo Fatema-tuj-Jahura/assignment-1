@@ -1,0 +1,30 @@
+/* font */
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared */
+.first-btn{
+    background-color: white;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    border-radius: 8px;
+}
+/* nav */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 150px;
+}
+.nav-name{
+    font-weight: 800;
+    font-size: 28px;
+    color: #0D1321;
+}
+nav ul li{
+    list-style: none;
+}
