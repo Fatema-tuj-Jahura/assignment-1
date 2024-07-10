@@ -56,6 +56,28 @@
     line-height: 26px;
     text-align: left;
 }
+.target-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin: 8px 0px;
+}
+.target-anchor{
+    list-style: none;
+    text-align: left;
+}
+.anchor-text{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    
+}
 
 /* nav */
 #navbar{
@@ -234,4 +256,54 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+/* target area styles */
+.target-caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.target-one{
+     
+    width: 364px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-two{
+    width: 364px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-three{
+    width: 364px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.target-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 48px 0px;
+    gap: 20px;
 }
