@@ -198,5 +198,30 @@ main{
     background-color: white;
     border-radius: 16px;
     padding: 48px;
-
+}
+/* add video */
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.video-edit{
+    align-self: stretch;
+    margin: 10px 0px;
+    border-radius: 16px;
+}
+.youtube-video{
+    position: static;
+    width: 1140px;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+    margin: 48px 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
 }
