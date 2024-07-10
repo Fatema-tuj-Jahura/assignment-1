@@ -308,7 +308,7 @@ main{
     gap: 20px;
 }
 /* need help support section */
-.support-section{
+/* .support-section{
     position: absolute;
     width: 1140px;
     height: 313px;
@@ -355,7 +355,7 @@ main{
     background: rgb(255, 255, 255);
     /* margin: 32px, 0; */
 
-}
+/* }
 .btn-container{
     display: flex;
     flex-direction: row;
@@ -363,6 +363,102 @@ main{
     justify-content: space-evenly;
     padding: 0px;
     
+} */
+ /* again support */
+ .form{
+    position: static;
+    width: 1140px;
+    height: 314px;
+    background-image: url('//assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+ 
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px;
+    margin: 48px 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+ }   
+    
+ 
+    
+
+ 
+ .support-title{
+    color: rgb(17, 17, 17);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+ }
+ .support-description{
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+ }
+ .submit-btn{
+    
+    background-color: white;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    border-radius: 8px;
 }
+.form-container{
+    position: static;
+    width: 500px;
+    padding: 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    /* margin: 32px, 0; */
+ }
+ .btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0px;
+    gap: 10px;
+    
+}
+
 /* footer */
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+.name{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.name-container{
+    
+     position: static;
+     width: 1140px;
+     height: 36px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     padding: 0px;
+     margin: 32px 150px;
+}
 
