@@ -307,3 +307,62 @@ main{
     margin: 48px 0px;
     gap: 20px;
 }
+/* need help support section */
+.support-section{
+    position: absolute;
+    width: 1140px;
+    height: 313px;
+    left: 170px;
+    right: 150px;
+    top: 3800px;
+    bottom: 180px;
+    border-radius: 16px;
+    background: url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.support-title{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+
+}
+.support-description{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.submit-btn{
+    
+    background-color: white;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    border-radius: 8px;
+}
+.form-container{
+    position: static;
+    width: 500px;
+    padding: 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    /* margin: 32px, 0; */
+
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0px;
+    
+}
+/* footer */
+
