@@ -225,3 +225,13 @@ main{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
+.add-video{
+    left: 148px;
+    right: 152px;
+    top: 2340px;
+    bottom: 2130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
